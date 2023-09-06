@@ -4,7 +4,8 @@
   padding: 0; }
 
 .header {
-  background-color: #212529; }
+  background-color: #212529;
+  height: 10vh; }
   .header a {
     color: white; }
 
