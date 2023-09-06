@@ -1,0 +1,47 @@
+.header{
+    background-color: #212529;
+    a{
+        color: white;
+    }
+    }
+    .navbar-brand{
+        font-size: 35px;
+        font-family: 'Playfair Display', serif;
+        padding-left: 2rem;
+        &:hover{
+            color: rgb(171, 164, 164);
+        }
+        &:focus{
+            color: white
+        }
+    }
+    .navbar-toggler{
+        background-color: white;
+    }
+    .nav-link{
+        font-size: 22px;
+        padding: 1rem;
+        margin: 0 1.5rem;
+        &:hover{
+            color: rgb(171, 164, 164);
+        }
+    }
+    .collapse.navbar-collapse{
+        justify-content: flex-end;
+    }
+    .dropdown-menu a{
+        color: black;
+        &:active{
+            background-color: rgb(171, 164, 164); 
+            color: black;
+        }
+    }
+    
+    .nav-link.dropdown-toggle:focus{
+            color: rgb(171, 164, 164);
+            &:active{
+                color: rgb(171, 164, 164);
+            }
+    }
+
+

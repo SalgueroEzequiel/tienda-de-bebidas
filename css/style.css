@@ -1,3 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Preahvihear&display=swap");
 * {
   margin: 0;
   padding: 0; }
+
+.header {
+  background-color: #212529; }
+  .header a {
+    color: white; }
+
+.navbar-brand {
+  font-size: 35px;
+  font-family: 'Playfair Display', serif;
+  padding-left: 2rem; }
+  .navbar-brand:hover {
+    color: #aba4a4; }
+  .navbar-brand:focus {
+    color: white; }
+
+.navbar-toggler {
+  background-color: white; }
+
+.nav-link {
+  font-size: 22px;
+  padding: 1rem;
+  margin: 0 1.5rem; }
+  .nav-link:hover {
+    color: #aba4a4; }
+
+.collapse.navbar-collapse {
+  justify-content: flex-end; }
+
+.dropdown-menu a {
+  color: black; }
+  .dropdown-menu a:active {
+    background-color: #aba4a4;
+    color: black; }
+
+.nav-link.dropdown-toggle:focus {
+  color: #aba4a4; }
+  .nav-link.dropdown-toggle:focus:active {
+    color: #aba4a4; }
