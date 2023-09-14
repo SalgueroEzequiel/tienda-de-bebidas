@@ -1,3 +1,53 @@
-.index-main div{
+.index-main{
     background-color: antiquewhite;
+}
+
+.banner{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #dee4e9;
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+}
+.banner img{
+    width: 45%;
+    opacity: .5;
+    margin-top: -3rem;
+    &:hover{
+        opacity: .8;
+    }
+}
+.texto-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto 9rem;
+    h3{
+        color: rgb(0, 0, 0);
+        font-size: 50px;
+        font-weight: bold;
+    }
+    p{
+        color: black;
+        font-size: 25px;
+        
+    }
+    button{
+        background-color: rgb(163, 12, 12);
+        font-size: 18px;
+        padding: 6px;
+        border-radius: 8px;
+        &:hover{
+            font-size: 18.5px;
+            transition: .1s;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(255, 254, 254);
+        }
+    }
+
 }
