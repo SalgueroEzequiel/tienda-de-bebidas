@@ -9,11 +9,11 @@
     color: white; }
 
 .navbar-brand {
-  font-size: 35px;
+  font-size: 25px;
   font-family: 'Playfair Display', serif;
   padding-left: 2rem; }
   .navbar-brand:hover {
-    color: #aba4a4; }
+    color: #d0cece; }
   .navbar-brand:focus {
     color: white; }
 
@@ -21,9 +21,9 @@
   background-color: white; }
 
 .nav-link {
-  font-size: 22px;
-  padding: 1rem;
-  margin: 0 1.5rem; }
+  font-size: 18px;
+  padding: .5rem;
+  margin: 0 1rem; }
   .nav-link:hover {
     color: #aba4a4; }
 
@@ -42,8 +42,9 @@
     color: #aba4a4; }
 
 footer {
-  height: 10rem;
-  display: flex; }
+  height: 9rem;
+  display: flex;
+  overflow: auto; }
   footer div {
     background-color: #212529; }
   footer .seccion1-footer {
@@ -52,14 +53,14 @@ footer {
     display: flex;
     flex-wrap: wrap; }
     footer .seccion1-footer h3 {
-      font-size: 35px;
+      font-size: 22px;
       font-family: 'Playfair Display', serif;
-      margin: 15px 45px;
+      margin: 15px 45px -10px;
       color: #e9ecef; }
     footer .seccion1-footer p {
       color: #adb5bd;
       margin: 1px 45px;
-      font-size: 19px; }
+      font-size: 16px; }
   footer .seccion2-footer {
     background-color: #212529;
     width: 25%;
@@ -68,26 +69,29 @@ footer {
       color: #e9ecef;
       font-family: 'Cormorant Garamond', serif;
       padding-top: 10px;
-      padding-left: 6rem; }
+      display: flex;
+      justify-content: center;
+      font-size: 25px; }
     footer .seccion2-footer ul {
       width: 100%;
       display: flex;
-      justify-content: flex-start; }
+      justify-content: center;
+      margin-left: -0.5rem; }
       footer .seccion2-footer ul li {
-        padding: 1.5rem 2.5rem;
+        padding: 1.5rem 2rem;
         list-style: none; }
     footer .seccion2-footer .fa-brands.fa-whatsapp {
-      font-size: 40px;
+      font-size: 25px;
       color: #adb5bd; }
       footer .seccion2-footer .fa-brands.fa-whatsapp:hover {
         color: green; }
     footer .seccion2-footer .fa-brands.fa-instagram {
-      font-size: 40px;
+      font-size: 25px;
       color: #adb5bd; }
       footer .seccion2-footer .fa-brands.fa-instagram:hover {
         color: #c01cc0; }
     footer .seccion2-footer .fa-brands.fa-twitter {
-      font-size: 40px;
+      font-size: 25px;
       color: #adb5bd; }
       footer .seccion2-footer .fa-brands.fa-twitter:hover {
         color: #3e88d2; }
@@ -99,12 +103,13 @@ footer {
     footer .seccion3-footer h3 {
       color: #e9ecef;
       font-family: 'Cormorant Garamond', serif;
-      padding-top: 10px; }
+      padding-top: 10px;
+      font-size: 25px; }
     footer .seccion3-footer li {
       color: #adb5bd;
       list-style: none;
       margin-left: -28px;
-      font-size: 18px;
+      font-size: 16px;
       padding-top: 5px;
       text-decoration: none; }
       footer .seccion3-footer li:hover {
@@ -118,12 +123,13 @@ footer {
     footer .seccion4-footer h3 {
       color: #e9ecef;
       font-family: 'Cormorant Garamond', serif;
-      padding-top: 10px; }
+      padding-top: 10px;
+      font-size: 25px; }
     footer .seccion4-footer li {
       color: #adb5bd;
       list-style: none;
       margin-left: -28px;
-      font-size: 18px;
+      font-size: 16px;
       padding-top: 5px;
       text-decoration: none; }
       footer .seccion4-footer li:hover {
