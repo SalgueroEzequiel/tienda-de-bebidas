@@ -2,6 +2,8 @@ footer {
     height: 9rem;
     display: flex;
     overflow:auto;
+    position: absolute;
+    bottom: 0;
 
     div {
         background-color: #212529;
