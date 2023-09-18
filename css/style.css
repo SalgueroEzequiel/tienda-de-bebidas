@@ -326,7 +326,7 @@ body {
   align-items: center;
   justify-content: center; }
   .main-contacto .contenedor-contactanos {
-    background-image: url(/img/bombai.jpg);
+    background-image: url(../img/bombai.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 40%;
