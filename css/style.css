@@ -46,7 +46,8 @@ footer {
   display: flex;
   overflow: auto;
   position: relative;
-  bottom: 0; }
+  bottom: 0;
+  background-color: #212529; }
   footer div {
     background-color: #212529; }
   footer .seccion1-footer {
@@ -392,7 +393,8 @@ body {
       display: flex;
       flex-direction: column; }
   .main-contacto .mapa {
-    opacity: 0.6; }
+    filter: brightness(75%);
+    width: 95%; }
     .main-contacto .mapa:hover {
-      opacity: 1;
+      filter: brightness(100%);
       transition: .5s; }
